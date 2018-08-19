@@ -1,0 +1,26 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPagePublic.master.cs" Inherits="MasterPagePublic" %>
+
+<!DOCTYPE html>
+<link rel="stylesheet" runat="server" media="screen" href="/Css/StyleSheet.css" />
+<html>
+<head runat="server">
+    <title>Perfect Plan</title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="box">
+            <div id="Logo" class="center">
+                <asp:Image ID="ImageLogo" runat="server" ImageUrl="~/Img/logo_wbg.png" />   
+            </div>
+            <div id="PlaceHolderSession" class="center">
+                <asp:ContentPlaceHolder id="ContentPlaceHolderPublic" runat="server"/>                                       
+            </div>
+            <div id="FooterMainSession" class="center footer">
+                 &copy; Fred, Hardeep, Hyojin, Rajvir, Tanureet, Gagandeep | COMP 229 - 004 Web Application Development
+        </div>
+        </div>
+    </form>
+</body>
+</html>

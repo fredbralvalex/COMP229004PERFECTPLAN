@@ -1,0 +1,84 @@
+﻿body {
+}
+
+.header {
+    text-align: center;
+    color: #008080;
+}
+.center {
+    text-align: center;
+}
+
+.fieldleft {
+    min-width: 60px;
+    max-width: 60px;
+}
+
+.fieldright {
+    min-width: 60px;
+    max-width: 60px;
+}
+
+.footer {
+    color: #008080;
+}
+
+.errormessage {
+    text-align: center;
+    color: red;
+}
+
+.successmessage {
+    text-align: center;
+    color: #008080;
+}
+
+
+div.box {
+    margin: 0 auto;
+    width: 800px;
+    position: relative;
+    top: 50px;
+    left: -5px;
+}
+
+    div.box div {
+        width: 103%;
+        display: block;
+        padding: 5px 0 5px 0;
+    }
+
+    div.box label {
+    }
+
+    div.box span {
+        color: #008080;
+    }
+
+    /* unvisited link */
+a:link {
+    color: #008080;
+    text-decoration: none;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+}
+/* mouse over link */
+a:hover {
+    color: #f3f3f3;
+    border: 1px solid #e7e7e7;
+    text-decoration: none;
+    background-color: #008080;
+}
+    /* visited link */
+a:visited {
+    color: #008080;
+    text-decoration: none;
+}
+
+
+
+    /* selected link */
+a:active {
+    color: #008080;
+    text-decoration: none;
+}
